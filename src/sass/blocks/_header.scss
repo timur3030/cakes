@@ -1,0 +1,27 @@
+.header {
+  min-height: 82px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__title {
+  }
+  &__contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+  }
+  &__address,
+  &__phone {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 12px;
+    align-items: center;
+  }
+  &__tel {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 152%;
+    color: #ffffff;
+  }
+}

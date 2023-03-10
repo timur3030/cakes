@@ -1,0 +1,28 @@
+.promo {
+  min-height: 100vh;
+  padding-top: 37px;
+  padding-bottom: 465px;
+  background: url("../img/bg.jpg") center center/cover no-repeat;
+  &__wrapper {
+    margin-top: 188px;
+    width: 647px;
+  }
+  &__title {
+    margin-top: 24px;
+  }
+  &__subtitle {
+    margin-top: 24px;
+  }
+  &__btns {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+  }
+  &__link {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #ffffff;
+    margin-right: 20px;
+  }
+}
