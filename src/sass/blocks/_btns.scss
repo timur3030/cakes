@@ -11,4 +11,9 @@
   line-height: 152%;
   text-align: center;
   color: #2e363e;
+
+  &:hover {
+    text-decoration: none;
+    color: #2e363e;
+  }
 }

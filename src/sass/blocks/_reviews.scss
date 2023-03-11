@@ -1,0 +1,98 @@
+.reviews {
+  background-color: #081130;
+  &__img-start {
+    height: 330px;
+    width: 100%;
+    background: url("../img/cloud_1.png") center center/cover no-repeat;
+  }
+  &__img-end {
+    margin-top: 135px;
+    height: 330px;
+    width: 100%;
+    background: url("../img/cloud_2.png") center center/cover no-repeat;
+  }
+  &__title {
+    text-align: center;
+  }
+  &__slide {
+    position: relative;
+    margin-top: 80px;
+    padding: 70px 143px;
+    background-color: #fff;
+    border-radius: 10px;
+    .grid {
+      display: grid;
+      grid-template-columns: minmax(auto, 460px) 380px;
+      gap: 50px;
+      align-items: start;
+    }
+    &-descr {
+      img {
+        width: 40px;
+        height: 40px;
+      }
+      a {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #4a94ff;
+      }
+    }
+    &-title {
+      margin-top: 24px;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 143%;
+      color: #2e363e;
+    }
+    &-text {
+      margin-top: 24px;
+      margin-bottom: 24px;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 170%;
+      color: #2e363e;
+    }
+    &-img {
+      img {
+        width: 100%;
+      }
+      &-name {
+        margin-top: 30px;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 143%;
+        text-align: center;
+        color: #2e363e;
+      }
+      &-city {
+        margin-top: 6px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 170%;
+        text-align: center;
+        color: #a6aeb6;
+      }
+    }
+    .slick-prev,
+    .slick-next {
+      background-color: #FED84C;
+      position: absolute;
+      bottom: 0;
+      transform: translateY(200%);
+      outline: none;
+      border-radius: 100%;
+      width: 67px;
+      height: 66px;
+      .img {
+        width: 100%;
+      }
+    }
+    .slick-prev {
+      left: 42%;
+    }
+    .slick-next {
+      right: 42%;
+    }
+  }
+}

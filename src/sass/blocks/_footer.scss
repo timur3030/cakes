@@ -1,0 +1,71 @@
+.footer {
+  background-color: #081130;
+  padding-bottom: 80px;
+  &__img {
+    height: 330px;
+    width: 100%;
+    background: url("../img/cloud_1.png") center center/cover no-repeat;
+  }
+  &__form {
+    margin-top: 16px;
+    padding: 70px 100px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  &__title {
+    text-align: center;
+  }
+  &__subtitle {
+    margin-top: 12px;
+    text-align: center;
+    font-weight: 400;
+  }
+  &__triggers {
+    margin-top: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__input {
+    width: 380px;
+    height: 85px;
+    padding: 26px 30px;
+    margin-right: 20px;
+  }
+  &__btn {
+    padding: 29px 41px;
+    width: 380px;
+    height: 86px;
+    border: none;
+  }
+  &__policy {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input {
+      margin-right: 7px;
+    }
+    span {
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 130%;
+    }
+  }
+  &__info {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    span,
+    a {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 150%;
+      text-align: center;
+      color: #7e868e;
+    }
+  }
+  &__devider {
+    padding: 0 10px;
+  }
+}

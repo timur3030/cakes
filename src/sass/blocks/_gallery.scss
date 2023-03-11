@@ -1,0 +1,19 @@
+.galery {
+  &__title {
+    text-align: center;
+  }
+  &__subtitle {
+    margin-top: 14px;
+    text-align: center;
+  }
+  &__wrapper {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 9px;
+    img {
+        width: 100%;
+    }
+  }
+}

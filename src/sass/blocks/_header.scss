@@ -3,22 +3,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  &__title {
-  }
+
   &__contacts {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 450px;
   }
+
+
   &__address,
   &__phone {
     display: grid;
     grid-template-columns: repeat(2, auto);
     column-gap: 12px;
     align-items: center;
+    img {
+        max-height: 20px;
+      }
   }
   &__tel {
+    display: block;
     font-weight: 700;
     font-size: 20px;
     line-height: 152%;

@@ -19,10 +19,14 @@
     align-items: center;
   }
   &__link {
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 160%;
-    color: #ffffff;
     margin-right: 20px;
+    &_white {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 160%;
+      &:hover {
+        color: #fff;
+      }
+    }
   }
 }
