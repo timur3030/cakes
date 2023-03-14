@@ -1,27 +1,25 @@
 .content {
-  min-height: 1352px;
-  position: relative;
   background-color: #081130;
   &__img-start {
     height: 330px;
-    position: absolute;
-    top: -1px;
     width: 100%;
     background: url("../img/cloud_1.png") center center/cover no-repeat;
   }
-  &__img-end {
-    height: 330px;
-    position: absolute;
-    z-index: 5;
-    bottom: 0;
-    width: 100%;
-    background: url("../img/cloud_2.png") center center/cover no-repeat;
-  }
   &__wrapper {
-    position: absolute;
+    display: grid;
+    grid-template-columns: minmax(auto, 51%) 49%;
+    gap: 84px;
+    align-items: end;
+  }
+  &__wrapper-second {
+    position: relative;
+    overflow: hidden;
+  }
+  &__text {
+    grid-column: 2/3;
     width: 481px;
-    top: 439px;
-    right: 0;
+    margin-top: 109px;
+    margin-bottom: 109px;
   }
   &__label {
     width: 230px;
@@ -38,13 +36,10 @@
     width: 320px;
     margin-top: 40px;
   }
-  &__img-main {
-    background: url("../img/phone.png") center center/contain no-repeat;
-    position: absolute;
-    left: -100px;
-    bottom: 0;
-    width: 1090px;
-    height: 1034px;
-
+  &__img {
+    grid-column: 1/2;
+    img {
+      width: 100%;
+    }
   }
 }

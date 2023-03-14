@@ -7,14 +7,22 @@
   &__items {
     margin-top: 80px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 380px);
+    // grid-template-columns: repeat(auto-fit, 380px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
     gap: 20px;
   }
   &__item {
+    position: relative;
     border: 1px solid #d9dce0;
     border-radius: 10px;
+    &-img {
+      img {
+        width: 100%;
+      }
+    }
     &-descr {
-      padding: 50px 44px;
+      padding: 50px 44px 44px 44px;
     }
     &-title {
       font-weight: 700;
