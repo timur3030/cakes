@@ -13,7 +13,13 @@
     grid-template-rows: auto;
     gap: 9px;
     img {
-        width: 100%;
+      width: 100%;
+    }
+  }
+  &__photo {
+    transition: all 0.6s;
+    &:hover {
+      transform: scale(1.05);
     }
   }
 }
